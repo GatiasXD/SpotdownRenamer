@@ -1,0 +1,25 @@
+
+{
+  "manifest_version": 3,
+  "name": "Spotdown Renamer",
+  "version": "1.0",
+  "description": "Quita _spotdown.org de los nombres de descarga.",
+  "permissions": ["downloads"],
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "action": {
+    "default_title": "Spotdown Renamer",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
